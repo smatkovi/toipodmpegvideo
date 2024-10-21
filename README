@@ -1,0 +1,1 @@
+ffmpeg -i Just.Visiting.2001.720p.BluRay.x264-\[YTS.AG\].mp4 -vf scale=176:-1 Ausgabedatei.mpeg
