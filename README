@@ -1,1 +1,5 @@
+#nano 1G
 ffmpeg -i Just.Visiting.2001.720p.BluRay.x264-\[YTS.AG\].mp4 -vf scale=176:-1 Ausgabedatei.mpeg
+
+#nano 3g
+Futurama.S09E03.720p.WEB.x265-MiNX[TGx]]$ ffmpeg -i Futurama.S09E03.720p.WEB.x265-MiNX.mkv -c:v libx264 -profile:v baseline -level 3.0 -b:v 1500k -maxrate 1500k -bufsize 2000k -vf "scale=640:480" -r 30 -c:a aac -b:a 160k -ar 48000 -ac 2 -movflags +faststart Futurama.S09E03.720p.WEB.x265-MiNX.mp4
